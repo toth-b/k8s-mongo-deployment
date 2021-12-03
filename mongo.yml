@@ -17,7 +17,7 @@ spec:
       containers:
         # MongoDB pod:
         - name: mongodb
-          image: mongo 5.0
+          image: mongo:5.0
           resources:
             limits:
               memory: "128Mi"
